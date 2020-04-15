@@ -1,0 +1,12 @@
+# Default values for tardigade-gateway.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+api_key: 13yqd85lvgbdkdpqnrjf9arrep3pyy11yrmgsoxdg4r47mfy58cwudi9j6c9ol7y3acu3qhpnwkevma1t1kqmw8vbqjjbrq8zaj3iws
+satellite_addr: us-central-1.tardigrade.io:7777
+accessKey: 3gGrNrw1DcM3ZMVXpJjuvP5FHcYp
+secretKey: 45gk2kz5wGryvFRbm3iAE68V1zLt
+gatewayImage: storjlabs/gateway:6697f46-v1.0.0-rc.6-go1.13.8
+service:
+  port: 80
+  type: clusterip
+
